@@ -7,7 +7,7 @@ public class DigitalVideoDisc {
 	private int length;
 	private float cost;
 	private int id;
-	private static int nbDigitalVideoDisc = 0;
+	private static int nbDigitalVideoDisc = 0;//static help share the value across objects and helpful for incremental number
 	
 	DigitalVideoDisc(String title){
 		//DVD for "DVD cannot be played" purpose
@@ -67,7 +67,7 @@ public class DigitalVideoDisc {
 		return cost;
 	}
 	
-	public String setTitle(String title) {
+	public String setTitle(String title) {//used for TestPassingParameter:swap
 		this.title = title;
 		return this.title; 
 	}

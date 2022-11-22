@@ -1,4 +1,4 @@
-
+//Nguyen Le Minh 20205002
 public class TestPassingParameter {
 
 	public static void main(String[] args) {
@@ -20,10 +20,10 @@ public class TestPassingParameter {
 	}*/
 	
 	public static void swap(DigitalVideoDisc d1, DigitalVideoDisc d2) {
-		String tmp = d1.getTitle();
+		String tmp = d1.getTitle();//tweak tmp value in debug and watch the change
 		d1.setTitle(d2.getTitle());
 		d2.setTitle(tmp);
-	} //new swap method for correct swapping
+	} //new swap method for correct swapping, omit other methods by commenting
 	
 	/*public static void changeTitle(DigitalVideoDisc dvd, String title) {
 		String oldTitle = dvd.getTitle();
